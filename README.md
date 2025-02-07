@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -9,6 +10,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 =======
 # Megaloto
+=======
+# megaloto
+>>>>>>> ddedd2a2855f9d4c612a6a24798487a369dc75df
 
 
 
@@ -101,4 +105,7 @@ For open source projects, say how it is licensed.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+<<<<<<< HEAD
 >>>>>>> 90a99175c905d5d95791e485b7ca5afabab6ada7
+=======
+>>>>>>> ddedd2a2855f9d4c612a6a24798487a369dc75df
