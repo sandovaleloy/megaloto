@@ -1,0 +1,43 @@
+.formulario-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.seccion {
+  width: 100%;
+  flex: 1;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.required {
+  color: red;
+}
+
+.imagen-seleccionada {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border: 1px solid lightgrey;
+}
+
+.imagen-seleccionada:hover, .bxs-user-circle:hover {
+  cursor: pointer;
+  filter: opacity(0.8);
+}
+
+.icon_user {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icon_user {
+  font-size: 200px;
+}
