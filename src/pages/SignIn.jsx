@@ -145,7 +145,7 @@ const SignIn = () => {
             <div className="col-xl-4 col-lg-5 col-md-12 col-sm-12 d-xl-flex d-lg-flex d-block align-items-center">
               <div className="part-right">
                 <div className="part-img">
-                  <img src="./public/sign/sign-in-img.png" alt="" />
+                  <img src="/sign/sign-in-img.png" alt="" />
                 </div>
                 <div className="part-text">
                   <div className="section-title">
