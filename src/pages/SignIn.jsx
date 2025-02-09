@@ -126,8 +126,9 @@ const SignIn = () => {
                         <input
                           type="password"
                           {...register("password")}
-                          id="last_name"
+                          id="password"
                           placeholder="**********"
+                          autocomplete="new-password"
                         />
                       </div>
                     </div>
