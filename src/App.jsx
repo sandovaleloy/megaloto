@@ -1,4 +1,4 @@
-import { HashRouter as Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
