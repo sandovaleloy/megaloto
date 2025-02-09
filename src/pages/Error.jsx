@@ -10,7 +10,7 @@ const Error = () => {
           <div className="row justify-content-center">
             <div className="col-xxl-7 col-xl-8 col-lg-9 col-md-10">
               <div className="part-img">
-                <img src="../../public/errorImage/error-image.png" alt="" />
+                <img src="../../errorImage/error-image.png" alt="" />
               </div>
               <div className="part-text">
                 <div className="section-title">

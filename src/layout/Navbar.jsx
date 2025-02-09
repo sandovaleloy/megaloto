@@ -20,7 +20,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   const { isAdmin, isLogged, setIsAdmin, setIsLogged } = authUse();
   const [userData, setUserData] = useState();
-  const [avatarDefaultPhoto] = useState("./public/navbar/avatar-default.png");
+  const [avatarDefaultPhoto] = useState("/navbar/avatar-default.png");
   const botonMenuRef = useRef(null);
 
   const handleLogout = () => {
@@ -133,7 +133,7 @@ const Navbar = () => {
           <div className="logo">
             <Link to="/">
               <img
-                src="./public/logoSvg/MegalotoMesa de trabajo 30.svg"
+                src="/logoSvg/MegalotoMesa de trabajo 30.svg"
                 alt=""
                 style={{ height: "90px" }}
               />

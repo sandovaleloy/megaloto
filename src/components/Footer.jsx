@@ -16,7 +16,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="footerLogo">
-            <img src="./public/logoSvg/MegalotoMesa de trabajo 30.svg" alt="" />
+            <img src="/logoSvg/MegalotoMesa de trabajo 30.svg" alt="" />
           </div>
         </div>
       </div>
