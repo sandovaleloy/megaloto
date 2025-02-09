@@ -34,7 +34,7 @@ const Giveaways = () => {
   };
 
   const getGiveAways = async (urlSearch = null, pageSize = 10) => {
-    showLoader();
+    // showLoader();
     giveawaysService.getGiveAways(urlSearch, pageSize).then((response) => {
       setGiveaways(response);
       hideLoader();

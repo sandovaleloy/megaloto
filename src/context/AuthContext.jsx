@@ -1,18 +1,10 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-  const [isLogged, setIsLogged] = useState(!!sessionStorage.getItem("token"));
-  const [isAdmin, setIsAdmin] = useState(
-    sessionStorage.getItem("idRol") === "1"
-  );
-
-  useEffect(() => {
-    const token = sessionStorage.getItem("token");
-    setIsLogged(!!token);
-    setIsAdmin(sessionStorage.getItem("idRol") === "1");
-  }, []);
+  const [isLogged, setIsLogged] = useState(localStorage.getItem("token"));
+  const [isAdmin, setIsAdmin] = useState(localStorage.getItem("idRol") === "1");
 
   return (
     <AuthContext.Provider
@@ -24,5 +16,9 @@ export const AuthProvider = ({ children }) => {
 };
 
 export const authUse = () => {
-  return useContext(AuthContext);
+  const context = useContext(AuthContext);
+  if (!context) {
+    throw new Error("authUse debe usarse dentro de un AuthProvider");
+  }
+  return context;
 };
